@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.screen1{
+    display: none;
+    margin-top: 10px;
+}
+.screen2{
+    display: none;
+    margin-top: 10px;
+}
+.screen3{
+    display: none;
+    margin-top: 10px;
+}
+.screen4{
+    display: none;
+    margin-top: 10px;
+}
+@media (max-width:1440px){
+    body{
+        background-color: green;
+    }
+    .screen1{
+        display: block;
+    }
+   
+    .screen2{
+        display: none;
+        margin-top: 10px;
+    }
+    .screen3{
+        display: none;
+        margin-top: 10px;
+    }
+    .screen4{
+        display: none;
+        margin-top: 10px;
+    }
+}
+@media (max-width:1024px){
+    body{
+        background-color: tan;
+    }
+    .screen2{
+        display: block;
+    }
+    .screen1{
+        display: none;
+        margin-top: 10px;
+    }
+   
+    .screen3{
+        display: none;
+        margin-top: 10px;
+    }
+    .screen4{
+        display: none;
+        margin-top: 10px;
+    }
+}
+@media (max-width:768px){
+    body{
+        background-color: aqua;
+    }
+    .screen3{
+        display: block;
+    }
+    .screen1{
+        display: none;
+        margin-top: 10px;
+    }
+    .screen2{
+        display: none;
+        margin-top: 10px;
+    }
+   
+    .screen4{
+        display: none;
+        margin-top: 10px;
+    }
+}
+@media (max-width:425px){
+    body{
+        background-color: brown;
+    }
+    .screen4{
+        display: block;
+    }
+    .screen1{
+        display: none;
+        margin-top: 10px;
+    }
+    .screen2{
+        display: none;
+        margin-top: 10px;
+    }
+    .screen3{
+        display: none;
+        margin-top: 10px;
+    }
+   
+}
